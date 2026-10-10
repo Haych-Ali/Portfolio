@@ -23,8 +23,5 @@ This project was created to strengthen my front-end development skills and serve
 - Add a contact form
 - Improve accessibility and mobile responsiveness
 
-## Author
-**Hamza Ali**  
-Aspiring Full-Stack Developer
 
 [GitHub](https://github.com/Haych-Ali)
