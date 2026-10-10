@@ -18,9 +18,8 @@ A responsive personal portfolio website built using **HTML5, CSS3, and Bootstrap
 This project was created to strengthen my front-end development skills and serve as a personal portfolio to showcase my progress, technical abilities, and future projects.
 
 ## Future Improvements
-- Add a dedicated projects section
+- Add more to my projects section
 - Implement JavaScript functionality
-- Add a contact form
 - Improve accessibility and mobile responsiveness
 
 
