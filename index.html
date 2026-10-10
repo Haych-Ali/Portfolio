@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Hamza Ali personal portfolio" />
+    <title>My Personal Portfolio</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-lg" aria-label="Main navigation">
+      <div class="container-fluid">
+        <a class="navbar-brand text-white" href="#">Hamza Ali</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon" aria-hidden="true"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#projects">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- typerwrite text for h1 -->
+    <div>
+      <div class="header">
+      <h1 class="cursor">
+        <span class="typewriter-line line-one">Hi, I'm Hamza Ali!</span>
+        <span class="typewriter-line line-two hero-role">Aspiring Developer</span>
+      </h1>
+
+        <div class="social-icons">
+          <a href="https://github.com/hamza-ali" target="_blank" rel="noopener noreferrer">
+            <img src="icons/github.svg" alt="GitHub" class="social-icon" />
+          </a>
+          <a href="https://www.linkedin.com/in/hamza-ali-1b0a4b1b6/" target="_blank" rel="noopener noreferrer">
+            <img src="icons/linkedin.svg" alt="LinkedIn" class="social-icon" />
+          </a>
+        </div>
+
+        <div class="header-buttons">
+          <a class="btn btn-outline-primary" href="#about">
+            About Me
+          </a>
+          <a class="btn btn-outline-primary" href="files/Hamza Ali CV.pdf" download>
+            Download CV
+          </a>
+        </div>
+      </div>
+
+      <div class="section-divider"></div>
+
+      <!-- about me -->
+      <section id="about">
+        <h2>About Me</h2>
+        <div class="about-card">
+        <p class="about-description">
+          Hi, Im Hamza Ali, a passionate developer who loves to create effective solutions and loves to problem solve.
+          Eager to learn new skills and gain experience in the field of software development. I am a quick learner and a
+          team player, always ready to take on new challenges and contribute to the success of the team. Currently looking
+          for an Apprenticeship or Junior Developer role to kickstart my career in the tech industry.
+        </p>
+
+        <div class="about-tabs">
+          <button class="about-tab" type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#skills"
+            aria-controls="skills"
+            aria-expanded="true">
+            Skills
+          </button>
+
+          <button class="about-tab" type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#education"
+            aria-controls="education"
+            aria-expanded="false">
+            Education
+          </button>
+
+          <button class="about-tab" type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#learning"
+            aria-controls="learning"
+            aria-expanded="false">
+            Currently Learning
+            </button>
+        </div>
+      
+
+        <div id="about-info">
+          <div class="collapse show" id="skills" data-bs-parent="#about-info">
+            <div class="card card-body info-card">
+              <img src="icons/python.svg" class="img-fluid" alt="Python" />
+              <img src="icons/javascript.svg"  class="img-fluid" alt="JavaScript"/>
+              <img src="icons/html5.svg"  class="img-fluid" alt="html5" />
+              <img src="icons/css.svg"  class="img-fluid" alt="css"/>
+            </div>
+          </div>
+
+          <div class="collapse" id="education" data-bs-parent="#about-info">
+            <div class="card card-body info-card">
+              Currently studying at code academy for full stack development. Completed Computer science for a levels, and
+              currently seeking for appretniceship or junior developer role.
+            </div>
+          </div>
+          <div class="collapse" id="learning" data-bs-parent="#about-info">
+            <div class="card card-body info-card">
+            <p>Currently learning full-stack development, including JavaScript and SQL.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      </section>
+
+      <div class="section-divider"></div>
+
+      <!-- Projects section -->
+      <section id="projects">
+      <h2>Projects</h2>
+        <div class="project-container">
+        <div class="card">
+          <div class="card-body">
+            <h6 class="card-title">Python</h6>
+            <h5 class="card-subtitle mb-2">Number Slide Puzzle</h5>
+            <p class="card-text">
+              A logic-based puzzle game built with Python that focuses on problem solving, game flow, and user interaction. 
+            </p>
+            <a href="https://github.com/Haych-Ali/Slide-Puzzle.git" class="card-link">Github</a>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-body">
+            <h6 class="card-title">HTML/CSS</h6>
+            <h5 class="card-subtitle mb-2">Account Creation</h5>
+            <p class="card-text">
+              A simple account creation page built with HTML and CSS. 
+            </p>
+            <a href="#" class="card-link">Github</a>
+          </div>
+        </div>
+        </div>
+      </section>
+
+      <div class="section-divider"></div>
+
+      <!-- contact section -->
+      <section id="contact">
+      <div class="contact-container">
+        <div class="contact-info">
+          <h2>Contact Me</h2>
+          <p>Feel free to reach out to me for opportunities, collaborations, or just to say hello.</p>
+          <p>Email: hamzaalia71a@gmail.com</p>
+        </div>
+        <div class="contact-form">
+          <form action="https://formspree.io/f/xvkzkqey" method="POST" >
+            <div class="mb-3">
+              <label for="name" class="form-label">Name</label>
+              <input type="text" class="form-control" id="name" name="name" required placeholder="Your name">
+            </div>
+            <div class="mb-3">
+              <label for="email" class="form-label">Email address</label>
+              <input type="email" class="form-control" id="email" name="email" required placeholder="name@example.com">
+            </div>
+            <div class="mb-3">
+              <label for="message" class="form-label">Message</label>
+              <textarea class="form-control" id="message" name="message" required rows="3"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">
+              <img src="icons/send.svg" alt="Send"  />
+              Send
+            </button>
+          </form>
+        </div>
+      </div>
+      </section>
+
+      <div class="section-divider"></div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.min.js"
+      integrity="sha384-G/EV+4j2dNv+tEPo3++6LCgdCROaejBqfUeNjuKAiuXbjrxilcCdDz6ZAVfHWe1Y"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
