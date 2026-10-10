@@ -225,6 +225,8 @@ section {
 
 #skills .info-card img:hover{
   transform: translateY(-5px) scale(1.1);
+  filter: brightness(0) invert(1)
+          drop-shadow(0 0 8px #818cf8);
 }
 
 /* Projects */
