@@ -12,5 +12,6 @@
     "markdown": false,
     "scminput": false,
     "css": true
-  }
+  },
+  "liveServer.settings.port": 5501
 }
